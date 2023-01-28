@@ -1,0 +1,55 @@
+@import url('https://fonts.cdnfonts.com/css/calculator');
+.btn{
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 40px;
+    padding: 5%;
+    margin: auto;
+    margin-bottom: 3%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: oblique;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(71, 58, 63, 0.652);
+    border-radius: 10px;
+    background: linear-gradient(135deg, #ffffff 0%, #717273 100%);
+}
+.display{
+    background-color:#508550;
+    margin: auto;
+    height: 65px;
+    font-size: 40px;
+    padding: 2%;
+    box-sizing:content-box;
+    overflow-x:scroll;
+    overflow-y: hidden;
+    color: rgb(0, 0, 0);
+    font-family: 'Calculator', sans-serif;
+    border-radius: 13px;
+    padding-left: 4%;
+    border: 15px solid black;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+}
+.calculator{
+    width: 32%;
+    margin: auto;
+    background-color: #000000;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(71, 58, 63, 0.652);
+    border-radius: 3%;
+    border: 1px solid black;
+    margin-top: -2%;
+}
+h1{
+    font-family:  cursive;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(42, 52, 165);
+    /* letter-spacing: 5px; */
+    margin: auto;
+    margin-bottom: 25px;
+}
